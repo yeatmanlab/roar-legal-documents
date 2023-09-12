@@ -27,7 +27,7 @@
 
 You and your child are invited to participate in a research study. Our goal is to understand the factors that are important to reading development and to develop useful, accurate, and reliable reading assessments for schools and researchers. We appreciate your participation! 
 
-In this study, you and your child will have opportunities to complete one or more of the following: 1) surveys for parents/guardians, 2) online activities for your child, 3) a scheduled virtual appointment for your child to complete reading assessments with a Stanford researcher. Audio may be presented via headphones or speakers. Stanford University, the State of California, the Jacobs Foundation, Microsoft, and the Advanced Education Research and Development Fund (AERDF) are providing financial support and/or material for this study.
+In this study, you and your child will have opportunities to complete one or more of the following: 1) surveys for parents/guardians, 2) online activities for your child, 3) a scheduled virtual appointment for your child to complete reading assessments with a Stanford researcher. Audio may be presented via headphones or speakers. Stanford University, the State of California, the Jacobs Foundation, Microsoft, Georgia State University (GSU), and the Advanced Education Research and Development Fund (AERDF) are providing financial support and/or material for this study.
 
 #### TIME INVOLVEMENT
 
