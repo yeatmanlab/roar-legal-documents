@@ -1,6 +1,6 @@
 #### Stanford University 
 
-<h3 style="text-align: center;"> Asentir </h3>
+<h3 style="text-align: center;"> Asentimiento </h3>
 
 <h4 style="text-align: right;"> Fecha de aprobación: August 17, 2022 </h4>
 
