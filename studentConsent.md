@@ -1,45 +1,45 @@
 <h5 style="text-align:left;">
-    Universidad de Stanford Formulario de Consentimiento de Investigación
+    STANFORD UNIVERSITY CONSENT FORM
     <span style="float:right;">
          For IRB Use Only
     </span>
 </h5>
 
 <h5 style="text-align:left;">
-    Director de Protocolo: Jason D. Yeatman, Ph.D.
+    Protocol Director: Jason D. Yeatman, Ph.D.
     <span style="float:right;">
-        Fecha de Aprobación: May 9, 2024
+        Approval Date: May 9, 2024
     </span>
 </h5>
 
 <h5 style="text-align:left;">
-    Título del Protocolo: Rapid Online Assessment of Reading
+    Protocol Title: Rapid Online Assessment of Reading
     <span style="float:right;">
-        Fecha de Expiración: Does Not Expire
+        Expiration Date: Does Not Expire
     </span>
 </h5>
 
-<h3 style="text-align: center;"> FORMULARIO DE CONSENTIMIENTO INFORMADO DE LA UNIVERSIDAD DE STANFORD </h3>
+<h3 style="text-align: center;"> STANFORD UNIVERSITY CONSENT FORM </h3>
 
-<h4 style="text-align: center;"> Programa de Investigación de Lectura y Dislexia de la Universidad de Stanford: Pruebas de Comportamiento </h4>
+<h4 style="text-align: center;"> Stanford University Reading & Dyslexia Research Program: Behavioral Testing </h4>
 
-> #### Investigador Principal: 
+> #### Principal Investigator: 
     > Jason D. Yeatman 
     >
-    > Profesor Asociado
+    > Associate Professor
     >
-    > Facultad de Posgrados en Educación
+    > Graduate School of Education
     >
-    > Facultad de Medicina, División de Desarollo-Comportamiento Pediátricas 
+    > School of Medicine, Division of Developmental Behavioral Pediatrics 
 
-> #### Contacto: 
+> #### Contact: 
     > roar-research@stanford.edu
     >
     > https://roar.stanford.edu/
     >
     > https://dyslexia.stanford.edu/ 
 
-#### PROPÓSITO DEL ESTUDIO
+#### PURPOSE OF THE STUDY
 Data collected through games in the web-browser will help researchers understand relationships between academic skills, reading proficiency, cognition, perception, and/or attitudes towards reading and school in individuals with a broad range of reading skills.
 
 #### STUDY PROCEDURES
