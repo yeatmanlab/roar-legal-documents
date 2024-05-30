@@ -8,6 +8,8 @@
 
 Estás invitado(a) a completar actividades en línea. En estas actividades, verás/observarás cosas como palabras o imágenes de caricaturas/dibujos. Responderás haciendo clic, escribiendo, tocando la pantalla o hablando, dependiendo de la actividad que estés haciendo/realizando, y todas estas respuestas quedarán registradas. Es posible que algunas actividades graben el movimiento de tus ojos y vídeo. Cada actividad, te dará instrucciones específicas sobre lo que debes hacer. Tu maestro(a)/profesor(a) u otro adulto de confianza puede ayudarte a comprender las instrucciones de cada actividad si estás confundido(a). Antes de comenzar, tendrás la oportunidad de practicar. Una vez que la actividad comience, trabaja por tu cuenta sin ayuda de nadie más. A veces, la actividad puede parecer difícil, pero está bien. ¡Haz lo mejor que puedas!
 
+También es posible que realices actividades adicionales en persona o a través de Zoom con un(a) investigador(a) de Stanford si tu escuela/colegio o maestro(a)/profesor(a) así lo decide. Si participas en estas actividades adicionales, es posible que se te grabe para hacer un seguimiento de tus respuestas. Si esto te hace sentir incómodo(a), puedes pedirle a tu maestro(a)/profesor(a) u otro adulto de confianza que eliminen tus grabaciones.
+
 #### ¿Puede pasarme algo malo?
 
 No anticipamos que te pase nada malo.
