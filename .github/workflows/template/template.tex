@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{ifxetex}
+\ifxetex
+  \def\cb@driver{dvips}
+\fi
+\usepackage{fontspec}
+\setmainfont{DejaVu Serif}
+\setsansfont{DejaVu Sans}
+\setmonofont{DejaVu Sans Mono}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{longtable,booktabs}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+
+% Add definition for \tightlist
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+$body$
+\end{document}
