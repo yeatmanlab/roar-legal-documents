@@ -19,8 +19,7 @@ jobs:
     - name: Install Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-fonts-extra diffpdf
-
+        sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-fonts-extra poppler-utils
 
     - name: Check for modified Markdown files
       id: markdown_check
@@ -39,7 +38,7 @@ jobs:
           git show ${{ github.event.pull_request.base.sha }}:"$FILE" > "old_$FILE"
           pandoc "old_$FILE" -o "pdfs/$(basename $FILE .md)_previous.pdf"
           # Create diff PDF
-          diffpdf "pdfs/$(basename $FILE .md)_previous.pdf" "pdfs/$(basename $FILE .md)_current.pdf" "pdfs/$(basename $FILE .md)_diff.pdf"
+          pdfdiff "pdfs/$(basename $FILE .md)_previous.pdf" "pdfs/$(basename $FILE .md)_current.pdf" "pdfs/$(basename $FILE .md)_diff.pdf"
         done
 
     - name: Combine PDFs with page breaks
