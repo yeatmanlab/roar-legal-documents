@@ -32,13 +32,12 @@ jobs:
           MODIFIED_FILES=$(git diff --name-only origin/main...HEAD -- '*.md')
           echo "Modified markdown files:"
           echo "$MODIFIED_FILES"
-          mkdir pdfs
+          mkdir -p pdfs
           # Generate individual PDFs
           for FILE in $MODIFIED_FILES; do
             echo "Processing $FILE"
-            # Generate diff in HTML
-            git diff origin/main...HEAD -- "$FILE" > diff.txt
-            diff2html -i file --file diff.txt -F diff.html -s line
+            # Generate diff and convert to HTML
+            git diff origin/main...HEAD -- "$FILE" | diff2html -i stdin -s line -o stdout > diff.html
             # Convert HTML to PDF
             OUTPUT_FILE="pdfs/${FILE//\//_}.pdf"
             wkhtmltopdf diff.html "$OUTPUT_FILE"
@@ -48,8 +47,7 @@ jobs:
           echo "<html><body>" > $COMBINED_HTML
           for FILE in $MODIFIED_FILES; do
             echo "<h1>Diff for $FILE</h1><hr>" >> $COMBINED_HTML
-            git diff origin/main...HEAD -- "$FILE" > diff.txt
-            diff2html -i file --file diff.txt -s line >> $COMBINED_HTML
+            git diff origin/main...HEAD -- "$FILE" | diff2html -i stdin -s line -o stdout >> $COMBINED_HTML
             echo "<div style='page-break-after: always;'></div>" >> $COMBINED_HTML
           done
           echo "</body></html>" >> $COMBINED_HTML
