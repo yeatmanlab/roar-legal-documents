@@ -1,0 +1,72 @@
+name: Markdown Diff to PDF
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+
+jobs:
+  check-markdown:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc diffpdf
+
+    - name: Check for modified Markdown files
+      id: markdown_check
+      run: |
+        MODIFIED_MARKDOWN=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep '\.md' || true)
+        echo "MODIFIED_MARKDOWN=$MODIFIED_MARKDOWN" >> $GITHUB_ENV
+
+    - name: Generate individual PDFs for modified markdown files
+      if: env.MODIFIED_MARKDOWN != ''
+      run: |
+        mkdir -p pdfs
+        for FILE in $MODIFIED_MARKDOWN; do
+          # Generate PDF of the current version of the file
+          pandoc "$FILE" -o "pdfs/$(basename $FILE .md)_current.pdf"
+          # Generate PDF of the previous version of the file
+          git show ${{ github.event.pull_request.base.sha }}:"$FILE" > "old_$FILE"
+          pandoc "old_$FILE" -o "pdfs/$(basename $FILE .md)_previous.pdf"
+          # Create diff PDF
+          diffpdf "pdfs/$(basename $FILE .md)_previous.pdf" "pdfs/$(basename $FILE .md)_current.pdf" "pdfs/$(basename $FILE .md)_diff.pdf"
+        done
+
+    - name: Combine PDFs with page breaks
+      if: env.MODIFIED_MARKDOWN != ''
+      run: |
+        pdftk pdfs/*_diff.pdf cat output combined_diffs.pdf
+
+    - name: Upload PDFs as artifacts
+      if: env.MODIFIED_MARKDOWN != ''
+      uses: actions/upload-artifact@v3
+      with:
+        name: markdown_diffs
+        path: pdfs/
+
+    - name: Upload combined diff PDF as artifact
+      if: env.MODIFIED_MARKDOWN != ''
+      uses: actions/upload-artifact@v3
+      with:
+        name: combined_markdown_diff
+        path: combined_diffs.pdf
+
+    - name: Post PR comment with download links
+      if: env.MODIFIED_MARKDOWN != ''
+      run: |
+        LINKS=""
+        for FILE in $MODIFIED_MARKDOWN; do
+          LINKS="${LINKS}- [Download diff for $(basename $FILE)](${{ github.server_url }}/${{ github.repository }}/actions/artifacts/markdown_diffs/$(basename $FILE .md)_diff.pdf)\n"
+        done
+        LINKS="${LINKS}\n- [Download combined diff](${{ github.server_url }}/${{ github.repository }}/actions/artifacts/combined_markdown_diff/combined_diffs.pdf)"
+        curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d "{\"body\": \"### Markdown Diff PDFs:\n\n${LINKS}\"}" \
+          "${{ github.event.pull_request.url }}/comments"
