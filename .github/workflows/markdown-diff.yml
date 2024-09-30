@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Fetch the entire history to avoid shallow clone issues
 
     - name: Install Dependencies
       run: |
