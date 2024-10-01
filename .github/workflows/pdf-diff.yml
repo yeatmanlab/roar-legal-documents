@@ -1,0 +1,91 @@
+name: Generate Rendered Diff PDFs
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+
+jobs:
+  generate_pdfs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch full history to compare branches
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra texlive-fonts-recommended latexdiff latexmk ghostscript
+          mkdir -p old_version new_version diffs pdfs
+
+      - name: Fetch main branch
+        run: |
+          git fetch origin main
+
+      - name: Generate rendered diffs and PDFs
+        run: |
+          # Get list of modified markdown files
+          MODIFIED_FILES=$(git diff --name-only origin/main...HEAD -- '*.md')
+          echo "Modified markdown files:"
+          echo "$MODIFIED_FILES"
+          mkdir -p pdfs
+          COMBINED_DIFFS=""
+          for FILE in $MODIFIED_FILES; do
+            echo "Processing $FILE"
+
+            # Extract old version from main branch
+            git show origin/main:"$FILE" > old_version/"$(basename "$FILE")"
+
+            # Copy new version
+            cp "$FILE" new_version/
+
+            # Convert both versions to LaTeX
+            pandoc old_version/"$(basename "$FILE")" -o old_version/"$(basename "$FILE" .md)".tex
+            pandoc new_version/"$(basename "$FILE")" -o new_version/"$(basename "$FILE" .md)".tex
+
+            # Run latexdiff to get the diffed LaTeX file
+            latexdiff old_version/"$(basename "$FILE" .md)".tex new_version/"$(basename "$FILE" .md)".tex > diffs/"$(basename "$FILE" .md)"_diff.tex
+
+            # Compile the diffed LaTeX file to PDF
+            cd diffs
+            latexmk -pdf -quiet "$(basename "$FILE" .md)"_diff.tex
+            cd ..
+
+            # Move the generated PDF to the pdfs directory
+            mv diffs/"$(basename "$FILE" .md)"_diff.pdf pdfs/
+
+            # Append to combined diffs
+            COMBINED_DIFFS="$COMBINED_DIFFS \includepdf[pages=-]{pdfs/$(basename "$FILE" .md)_diff.pdf}"
+          done
+
+          # Generate combined PDF if there are diffs
+          if [ -n "$COMBINED_DIFFS" ]; then
+            echo "\documentclass{article}
+            \usepackage{pdfpages}
+            \begin{document}
+            $COMBINED_DIFFS
+            \end{document}" > combined_diff.tex
+            latexmk -pdf -quiet combined_diff.tex
+            mv combined_diff.pdf pdfs/
+          fi
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v3
+        with:
+          name: rendered_diff_pdfs
+          path: pdfs/
+
+      - name: Comment on PR with download link
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const artifactUrl = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${process.env.GITHUB_RUN_ID}`;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `📄 Rendered diff PDFs have been generated and uploaded as artifacts for this workflow run. You can download them from the [Artifacts section of the workflow run](${artifactUrl}).`
+            });
