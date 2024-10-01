@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra texlive-fonts-recommended latexdiff latexmk ghostscript
+          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-xetex texlive-fonts-extra latexdiff latexmk ghostscript
           mkdir -p old_version new_version diffs pdfs
 
       - name: Fetch main branch
@@ -27,6 +27,12 @@ jobs:
 
       - name: Generate rendered diffs and PDFs
         run: |
+          # Create a LaTeX preamble with necessary packages
+          echo "\usepackage{fontspec}
+          \setmainfont{DejaVu Serif}
+          \setsansfont{DejaVu Sans}
+          \setmonofont{DejaVu Sans Mono}" > preamble.tex
+
           # Get list of modified markdown files
           MODIFIED_FILES=$(git diff --name-only origin/main...HEAD -- '*.md')
           echo "Modified markdown files:"
@@ -42,16 +48,16 @@ jobs:
             # Copy new version
             cp "$FILE" new_version/
 
-            # Convert both versions to LaTeX
-            pandoc old_version/"$(basename "$FILE")" -o old_version/"$(basename "$FILE" .md)".tex
-            pandoc new_version/"$(basename "$FILE")" -o new_version/"$(basename "$FILE" .md)".tex
+            # Convert both versions to LaTeX with preamble
+            pandoc old_version/"$(basename "$FILE")" --include-in-header=preamble.tex -o old_version/"$(basename "$FILE" .md)".tex
+            pandoc new_version/"$(basename "$FILE")" --include-in-header=preamble.tex -o new_version/"$(basename "$FILE" .md)".tex
 
-            # Run latexdiff to get the diffed LaTeX file
-            latexdiff old_version/"$(basename "$FILE" .md)".tex new_version/"$(basename "$FILE" .md)".tex > diffs/"$(basename "$FILE" .md)"_diff.tex
+            # Run latexdiff to get the diffed LaTeX file, including preamble
+            latexdiff --encoding=utf8 --preamble "\input{preamble.tex}" old_version/"$(basename "$FILE" .md)".tex new_version/"$(basename "$FILE" .md)".tex > diffs/"$(basename "$FILE" .md)"_diff.tex
 
-            # Compile the diffed LaTeX file to PDF
+            # Compile the diffed LaTeX file to PDF using xelatex
             cd diffs
-            latexmk -pdf -quiet "$(basename "$FILE" .md)"_diff.tex
+            latexmk -pdf -xelatex -interaction=nonstopmode -quiet "$(basename "$FILE" .md)"_diff.tex
             cd ..
 
             # Move the generated PDF to the pdfs directory
@@ -68,7 +74,7 @@ jobs:
             \begin{document}
             $COMBINED_DIFFS
             \end{document}" > combined_diff.tex
-            latexmk -pdf -quiet combined_diff.tex
+            latexmk -pdf -xelatex -interaction=nonstopmode -quiet combined_diff.tex
             mv combined_diff.pdf pdfs/
           fi
 
