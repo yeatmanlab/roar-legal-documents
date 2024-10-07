@@ -8,7 +8,7 @@
 <h5 style="text-align:left;">
     Protocol Director: Jason D. Yeatman, Ph.D.
     <span style="float:right;">
-        Approval Date: May 9, 2024
+        Approval Date: August 14, 2024
     </span>
 </h5>
 
@@ -51,7 +51,7 @@ We will do our best to ensure your privacy. Data that is collected through this 
 We will collect questionnaire responses, mouse and click data, scrolling behavior, scores earned, button presses and their timestamps, time spent on each page, your IP address to look up your state and county, or other data that may be derived from your behavior on our page. This data will be stored on protected servers. Incomplete data may be logged if you quit out of the experiment early. If you would like to void your data, you may request it through our contact email.
 
 #### COMPENSATION
-Participation in this study is voluntary and you will not receive financial compensation.
+Participation in this study is voluntary, and you will not receive financial compensation.
 
 #### RISKS, STRESS, OR DISCOMFORT
 If there is any reason to believe you are not safe to participate in any of the tasks, please contact us at roar-research@stanford.edu. Some people may experience some physical discomfort or boredom due to being asked to sit for long periods. For computer tasks, some people may also experience dry eyes or eye fatigue. For some tasks that are untimed, breaks can be taken as needed during the session.
@@ -61,4 +61,6 @@ If you have any additional questions or concerns about our research, feel free t
 
 For general information regarding questions or concerns about your rights as a research participant, please call 1-866-680-2906 to reach the Administrative Panel on Human Subjects in Medical Research, Stanford University.
 
-[ ]  I agree to participate in this research. Participation in this research is voluntary, and I can stop at any time without penalty. I feel that I understand what I am getting into, and I know I am free to leave the experiment at any time by simply closing the web browser.
+[X]  I agree to participate in this research. Participation in this research is voluntary, and I can stop at any time without penalty. I feel that I understand what I am getting into, and I know I am free to discontinue the experiment with no consequence to myself.
+
+**If you agree to participate, please press continue.**
