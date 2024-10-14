@@ -1,6 +1,6 @@
 # roar-legal-documents
 
-A repository that hosts all relevant legal documents for ROAR research. Documents in the main branch represent the latest versions that have been approved by the ROAR IRB. The ROAR dashboard then references these documents when displaying assent, consent, or terms of service documents to its users. The @roar-irb-maintainers team is responsible for ensuring that the main branch versions represent the latest versions approved by the IRB.
+A repository that hosts all relevant legal documents for ROAR research. Documents in the main branch represent the latest versions that have been approved by the ROAR IRB. The ROAR dashboard then references these documents when displaying assent, consent, or terms of service documents to its users. The [ROAR IRB maintainers team][link_roar_irb_maintainers] is responsible for ensuring that the main branch versions represent the latest versions approved by the IRB.
 
 ## Contributing
 
@@ -120,6 +120,7 @@ GitHub has a really helpful page for getting started with
 [link_pyafq]: https://github.com/yeatmanlab/pyAFQ
 [link_pyafq_contribution_guide]: https://github.com/yeatmanlab/pyAFQ/blob/master/.github/CONTRIBUTING.md
 [link_rick_roll]: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+[link_roar_irb_maintainers]: https://github.com/orgs/yeatmanlab/teams/roar-irb-maintainers
 [link_swc_intro]: http://swcarpentry.github.io/git-novice/
 [link_texteditor]: https://en.wikipedia.org/wiki/Text_editor
 [link_vscode]: https://code.visualstudio.com/
