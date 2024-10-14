@@ -1,6 +1,6 @@
 # roar-legal-documents
 
-A repository that hosts all relevant legal documents for ROAR research. Documents in the main branch represent the latest versions that have been approved by the ROAR IRB. The ROAR dashboard then references these documents when displaying assent, consent, or terms of service documents to its users.
+A repository that hosts all relevant legal documents for ROAR research. Documents in the main branch represent the latest versions that have been approved by the ROAR IRB. The ROAR dashboard then references these documents when displaying assent, consent, or terms of service documents to its users. The @roar-irb-maintainers team is responsible for ensuring that the main branch versions represent the latest versions approved by the IRB.
 
 ## Contributing
 
@@ -95,7 +95,7 @@ GitHub has a really helpful page for getting started with
 
    Again, nearly all of the legal document changes will have the `DOC` prefix.
 
-1. **Have your PR reviewed by the development team, and update your changes accordingly in your branch.**
+1. **Have your PR reviewed by the IRB maintainers team, and update your changes accordingly in your branch.**
 
    The reviewers will take special care in assisting you to address their
    comments, as well as dealing with conflicts and other tricky situations that
