@@ -33,47 +33,47 @@ GitHub has a really helpful page for getting started with
 
 1. **Comment on an existing issue or open a new issue referencing your changes.**
 
-  This allows other members of the ROAR team to confirm that you aren't
-  overlapping with work that's currently underway and that everyone is on the same page
-  with the goal of the work you're going to carry out.
+   This allows other members of the ROAR team to confirm that you aren't
+   overlapping with work that's currently underway and that everyone is on the same page
+   with the goal of the work you're going to carry out.
 
-  [This blog][link_pushpullblog] is a nice explanation of why putting this work in up front is so useful to everyone involved.
+   [This blog][link_pushpullblog] is a nice explanation of why putting this work in up front is so useful to everyone involved.
 
 1. **[Clone][link_clone] your roar-legal-documents repository to your machine/computer.**
 
-  While you can edit files [directly on github][link_githubedit], sometimes the changes
-  you want to make will be complex and you will want to use a [text editor][link_texteditor]
-  that you have installed on your local machine/computer.
-  (One great text editor is [vscode][link_vscode]).
+   While you can edit files [directly on github][link_githubedit], sometimes the changes
+   you want to make will be complex and you will want to use a [text editor][link_texteditor]
+   that you have installed on your local machine/computer.
+   (One great text editor is [vscode][link_vscode]).
 
-  In order to work on the code locally, you must clone this repository.
-  To keep up with changes in the roar-legal-documents repository, you should pull those changes to your local repository before starting a new revision branch.
+   In order to work on the code locally, you must clone this repository.
+   To keep up with changes in the roar-legal-documents repository, you should pull those changes to your local repository before starting a new revision branch.
 
-  ```Shell
-  git pull origin main
-  ```
+   ```Shell
+   git pull origin main
+   ```
 
 1. **Create a [new branch][link_branches] to develop and maintain the proposed code changes.**
 
-  Never alter your `main` branch. It should always reflect what is on the remote `main` branch. Instead, create a new branch for your edits. For example, starting from your `main` branch, you would create a new branch titled `doc/update-student-assent` with
+   Never alter your `main` branch. It should always reflect what is on the remote `main` branch. Instead, create a new branch for your edits. For example, starting from your `main` branch, you would create a new branch titled `doc/update-student-assent` with
 
-  ```Shell
-  git fetch origin  # Always start with an updated main branch
-  git checkout -b doc/update-student-assent origin/main
-  ```
+   ```Shell
+   git fetch origin  # Always start with an updated main branch
+   git checkout -b doc/update-student-assent origin/main
+   ```
 
-  Please use appropriate branch names as those listed below:
-    - `fix/<some-identifier>`: for bugfixes
-    - `enh/<feature-name>`: for new features
-    - `doc/<some-identifier>`: for documentation improvements.
+   Please use appropriate branch names as those listed below:
+     - `fix/<some-identifier>`: for bugfixes
+     - `enh/<feature-name>`: for new features
+     - `doc/<some-identifier>`: for documentation improvements.
 
-  Repository maintainers may use the `enh` and `fix` prefixes. All legal document updates will probably use the `doc` prefix.
+   Repository maintainers may use the `enh` and `fix` prefixes. All legal document updates will probably use the `doc` prefix.
 
 1. **Make your changes**
 
-  Try to keep the changes focused: it is generally easy to review changes that
-  address one issue at a time. Once you are satisfied with your local changes,
-  [add/commit/push them][link_add_commit_push] to your feature branch.
+   Try to keep the changes focused: it is generally easy to review changes that
+   address one issue at a time. Once you are satisfied with your local changes,
+   [add/commit/push them][link_add_commit_push] to your feature branch.
 
 1. **Submit a [pull request][link_pullrequest].**
 
