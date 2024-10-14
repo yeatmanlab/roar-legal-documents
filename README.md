@@ -103,7 +103,7 @@ GitHub has a really helpful page for getting started with
 
 1. **Use the automatically generated `_diff` PDF documents to communicate with the IRB.**
 
-   When you open a pull request that modifies any markdown file in this repository, a bot will detect those changes and generate PDF documents that highlight the changes that you have made. The bot will comment on your pull request with a link to download these "diff" documents. These diff documents are useful for interacting with the IRB and ensuring that the changes to documents in this repository match the changes approved by the IRB.
+   When you open a pull request that modifies any markdown file in this repository, a bot will detect those changes and generate PDF documents that highlight the changes that you have made. The bot will comment on your pull request with a link to download these "diff" documents. These diff documents are useful for interacting with the IRB and ensuring that the changes to documents in this repository match the changes approved by the IRB. The bot takes a few minutes to run, so be sure to check the update timestamp at the bottom of the comment to ensure that you have the latest version of the diff documents.
 
 [^1]: These contributing guidelines borrow language from [pyAFQ][link_pyafq]'s excellent [contribution guide][link_pyafq_contribution_guide].
 
