@@ -53,7 +53,6 @@ jobs:
           mkdir -p old_version new_version diffs pdfs
 
           # Create a custom LaTeX template
-          TEMPLATE=.github/workflows/template/template.tex
           pandoc -D latex > default_template.tex
           TEMPLATE=default_template.tex
 
