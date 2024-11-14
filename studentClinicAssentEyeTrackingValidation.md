@@ -14,7 +14,8 @@ You are invited to participate in a research study about reading. If you decide 
 
 * You will look at things like words or cartoon pictures and respond by clicking, typing, tapping, or speaking depending on the activity you play. These responses will be recorded.   
 * You will be asked various questions on how you feel about reading, learning, school, and the activities you played.   
-* You will play an activity that records your eye movement and video.
+* You will play an activity that records your eye movement and video.   
+* You will complete additional activities one-on-one with a Stanford scientist. We will record your audio and video to keep track of your answers. If this makes you uncomfortable then you can ask your parent or guardian for your recordings to be deleted.
 
 Each activity will give you specific instructions on what you need to do. Your parent or another trusted adult can help you understand the instructions for each activity if you are confused. Before you begin, you will have a chance to practice. Once the activity begins, work on your own without any help from anyone else. Sometimes the activity might feel difficult, but that’s okay. Just do the best you can\! You may be asked to complete multiple activities in one session. For activities that are not timed, feel free to take breaks in between activities.
 
@@ -22,13 +23,14 @@ Each activity will give you specific instructions on what you need to do. Your p
 Your participation will take approximately 1 hour.
 
 **Will I be compensated?**  
-We appreciate your help with our study\! Your participation in this study is voluntary, and you will not receive a gift card or any money for taking part.
+We appreciate your help with our study\! You will get a gift card for $15. We will send the gift card to your email when you finish the study.
 
 **Can anything bad happen to me?**  
 There are no anticipated risks associated with this study.
 
 **Can anything good happen to me?**  
-The benefit is that you can help researchers learn about how kids learn to read.  
+The benefit is that you can help researchers learn about how kids learn to read.
+
 **Will anyone know I am in the study?**  
 The fact that you participated in this study will be kept secret, but some demographic information, such as your age or gender, may be given to the study sponsor.
 
@@ -42,5 +44,5 @@ You can stop your participation in the study at any time without getting in trou
 
 Agreement obtained through checkbox/key press/mouse click: 
 
- **\[X\]**Press continue if you agree to participate and that you understand that you can take breaks between activities. You can also stop at any time without getting in trouble.
+**\[X\]** Press continue if you agree to participate and that you understand that you can take breaks between activities. You can also stop at any time without getting in trouble.
 
