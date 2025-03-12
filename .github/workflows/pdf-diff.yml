@@ -119,7 +119,7 @@ jobs:
           path: pdfs/
           retention-days: 90
 
-      - name: Upload PDFs
+      - name: Upload Word Docs
         uses: actions/upload-artifact@v4
         if: steps.generate_files.outputs.files != '[]' # Only run if there are modified files
         with:
@@ -133,9 +133,9 @@ jobs:
           MODIFIED_FILES: ${{ steps.generate_files.outputs.files }}
         with:
           script: |
-            const { issue, repo, payload } = context;
+            const { issue, repo, payload, sha } = context;
             const run_id = process.env.GITHUB_RUN_ID;
-            const sha = payload.after
+            // const sha = payload.after
 
             // Unique identifier to find the bot's comment
             const botCommentIdentifier = '<!-- GENERATED_BY_GITHUB_ACTION_PDF_DIFF -->';
@@ -173,7 +173,7 @@ jobs:
               
               // Add a comment about the word documents
               body += "\n**Word documents**:\n"
-              body += "- The changes are also provided in a word document with 'track changes' enabled.\n"
+              body += "- The changes are also provided in a word document with track changes enabled.\n"
             }
 
             body += `\n_Last updated at ${new Date().toUTCString()} for commit ${sha.substring(0, 7)}_`;
