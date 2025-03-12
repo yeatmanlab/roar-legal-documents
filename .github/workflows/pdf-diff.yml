@@ -25,7 +25,7 @@ jobs:
       - name: Fetch main branch
         run: |
           git fetch origin main
-      
+
       - name: Install dependencies
         run: |
           sudo apt-get update
@@ -50,7 +50,7 @@ jobs:
           echo "$MODIFIED_FILES"
 
           # Create necessary directories
-          mkdir -p old_version new_version diffs pdfs
+          mkdir -p old_version new_version diffs pdfs docx
 
           # Create a custom LaTeX template
           pandoc -D latex > default_template.tex
@@ -71,6 +71,16 @@ jobs:
             pandoc new_version/"$(basename "$FILE")" --from markdown --to latex \
             --template="$TEMPLATE" -o new_version/"$(basename "$FILE" .md)".tex
 
+            # Convert both versions to Word
+            pandoc old_version/"$(basename "$FILE")" -o old_version/"$(basename "$FILE" .md)".docx
+            pandoc new_version/"$(basename "$FILE")" -o new_version/"$(basename "$FILE" .md)".docx
+
+            # Generate Word file with tracked changes
+            pandoc --track-changes=all \
+            old_version/"$(basename "$FILE" .md)".docx \
+            new_version/"$(basename "$FILE" .md)".docx \
+            -o diffs/"$(basename "$FILE" .md)"_diff.docx
+
             # Run latexdiff with appropriate options
             latexdiff \
               --encoding=utf8 \
@@ -85,6 +95,9 @@ jobs:
 
             # Move the generated PDF to the pdfs directory
             mv diffs/"$(basename "$FILE" .md)"_diff.pdf pdfs/
+
+            # Move the generated Word doc to the docx directory
+            mv diffs/"$(basename "$FILE" .md)"_diff.docx docx/
           done
 
           if [ -z "$MODIFIED_FILES" ]; then
@@ -100,21 +113,29 @@ jobs:
 
       - name: Upload PDFs
         uses: actions/upload-artifact@v4
-        if: steps.generate_files.outputs.files != '[]'  # Only run if there are modified files
+        if: steps.generate_files.outputs.files != '[]' # Only run if there are modified files
         with:
-          name: document_changes
+          name: pdf_changes
           path: pdfs/
           retention-days: 90
-      
+
+      - name: Upload Word Docs
+        uses: actions/upload-artifact@v4
+        if: steps.generate_files.outputs.files != '[]' # Only run if there are modified files
+        with:
+          name: word_changes
+          path: docx/
+          retention-days: 90
+
       - name: Comment on PR with download links
         uses: actions/github-script@v7
         env:
           MODIFIED_FILES: ${{ steps.generate_files.outputs.files }}
         with:
           script: |
-            const { issue, repo, payload } = context;
+            const { issue, repo, payload, sha } = context;
             const run_id = process.env.GITHUB_RUN_ID;
-            const sha = payload.after
+            // const sha = payload.after
 
             // Unique identifier to find the bot's comment
             const botCommentIdentifier = '<!-- GENERATED_BY_GITHUB_ACTION_PDF_DIFF -->';
@@ -126,7 +147,7 @@ jobs:
             } catch (error) {
               console.error("Failed to parse modified files:", error);
             }
-            
+
             let body;
 
             if (modifiedFiles.length === 0) {
@@ -146,9 +167,13 @@ jobs:
               body += "These files expire after 90 days."
 
               // Add a commend about how to read latexdiff
-              body += "\n\n**How to read these PDFs**:\n"
+              body += "\n\n**How to read the PDFs**:\n"
               body += "- Added text is wavy underlined and blue.\n"
               body += "- Discarded text is struck out and red.\n"
+              
+              // Add a comment about the word documents
+              body += "\n**Word documents**:\n"
+              body += "- The changes are also provided in a word document with track changes enabled.\n"
             }
 
             body += `\n_Last updated at ${new Date().toUTCString()} for commit ${sha.substring(0, 7)}_`;
