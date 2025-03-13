@@ -25,7 +25,7 @@ Data collected through games in the web-browser will help researchers understand
 In this study, your child(ren)/your ward(s) will be asked to:
 
 * Complete computer tasks via a computer screen in which audio will be presented via headphones or speakers. They will look at things, such as but not limited to words, sentences, numbers, geometric shapes, mathematical symbols and operators, or cartoon pictures, and respond by clicking, typing, tapping, or speaking depending on the task. These responses will be recorded.
-* Answer questions about their feelings about reading, learning, school, 
+* Answer questions about their feelings about reading, learning, school, and the activities you played.
 
 Your child(ren)/ your ward(s) may be asked to complete tasks in one session.
 

@@ -17,15 +17,16 @@
 <br>
 
 **PURPOSE OF THE STUDY**  
-Data collected through games in the web-browser will help researchers understand relationships between academic skills, reading and math proficiency, cognition, perception, and/or attitudes towards academic skills and school in individuals with a broad range of skills. Your participation and your child(ren)'s/your ward(s)'s participation supports the development and validation of efficient online assessment tools that fit the needs of all educators, medical providers, and researchers. Any future research that is published from this study can be found on our website [roar.stanford.edu.](https://roar.stanford.edu/)  
+Data collected through games in the web-browser will help researchers understand relationships between academic skills, reading and math proficiency, cognition, perception, and/or attitudes towards academic skills and school in individuals with a broad range of skills. Your participation and your child(ren)’s/ your ward(s)’s participation supports the development and validation of efficient online assessment tools that fit the needs of all educators, medical providers, and researchers. Any future research that is published from this study can be found on our website: [roar.stanford.edu.](https://roar.stanford.edu/)  
 
 <br>
 
 **STUDY PROCEDURES**  
 In this study, your child(ren)/your ward(s) will be asked to:
 
-* Complete computer tasks via a computer screen in which audio will be presented via headphones or speakers. They will look at things, such as but not limited to words, sentences, numbers, geometric shapes, mathematical symbols and operators, or cartoon pictures, and respond by clicking, typing, tapping, or speaking depending on the task. These responses will be recorded.
-* Answer questions about their feelings about reading, learning, school, and the activities you played.
+* Complete computer tasks via a computer screen in which audio will be presented via headphones or speakers. You will look at things, such as but not limited to words, sentences, numbers, geometric shapes, mathematical symbols and operators, or cartoon pictures, and respond by clicking, typing, tapping, or speaking depending on the task. These responses will be recorded. For tasks where you respond verbally, the web browser will request access to your computer microphone.
+* Answer questions about their feelings about reading, learning, school, and the activities you played. 
+*	Complete an eye-tracking task that will request access to your webcam. This activity will capture eye-tracking data and video recordings.
 
 Your child(ren)/ your ward(s) may be asked to complete tasks in one session.
 
@@ -39,20 +40,21 @@ Participation will take approximately 1 hour.
 **PRIVACY AND DATA COLLECTION**  
 We will do our best to ensure your privacy. Data that is collected through this online experiment is stored separately from identifying information such as your name, but information that is required for analysis such as birth year, birth month, and grade will be stored alongside data. Each participant is assigned a code and that is used rather than names. This is called “coded data” and we try to ensure that the identity of our research participants is kept confidential. Data collected as part of this study may be used for many years to help discover trends in the population and explore changes due to development and education. In addition, coded data may be shared online or with collaborators to allow for new and unforeseen discoveries. Researchers may choose to include coded data in publications to support findings, or they may choose to release coded data alongside findings for replicability.
 
-We will collect questionnaire responses, mouse and click data, keyboard response data, scrolling behavior, scores earned, button presses and their timestamps, time spent on each page, IP address to look up state and county, audio recordings, or other data that may be derived from your behavior on our page. This data will be stored on protected servers. Incomplete data may be logged if you quit out of the experiment early. If you would like to void your data, you may request it through our contact email.  
+We will collect questionnaire responses, mouse and click data, keyboard response data, scrolling behavior, scores earned, button presses and their timestamps, time spent on each page, your IP address to look up your state and county, audio recordings, or other data that may be derived from your behavior on our page. This data will be stored on protected servers. The eye-tracking software will use your webcam to track your eyes. This software will record and save video data for future analysis. Once analysis has been completed, the video data will be deleted. Incomplete data may be logged if you quit out of the experiment early. If you would like to void your data, you may request it through our contact email. 
+
 <br>
 
 **FUTURE USE OF PRIVATE INFORMATION**  
-Research using private information is an important part of ensuring our assessments and tools are valid for people of all backgrounds. You are being given this information because the investigators want to save private information for future research.  
+Research using private information is an important part of ensuring our assessments and tools are valid for people of all backgrounds. You are being given this information because the investigators want to save private information for future research.    
 
-Identifiers might be removed from identifiable private information and, after such removal, the information could be used for future research studies or distributed to another investigator for future research studies without additional informed consent from you.
+Identifiers might be removed from identifiable private information and, after such removal, the information could be used for future research studies or distributed to another investigator for future research studies without additional informed consent from you. 
 
 <br>
 
 **COMPENSATION**  
 We value your participation and your child(ren)’s/ your ward(s)’s participation. You will receive a \$15 Amazon/Tango gift card through email upon completion of this study. The results of your child(ren)’s/ your ward(s)’s performance on the activity will be shared back with you through your account, which can be considered valuable compensation.
 
-*A note about third party systems:* Please note that the third party systems such as Tango, Square, and/or Calendly will be used to schedule sessions and pay participants. These services are not affiliated with Stanford and we will need to input your name and email into this system. If you feel uncomfortable with this process, please let us know before signing the consent form. Depending on the study, we may be able to look into other forms of scheduling or payment for you.  
+*A note about third party systems:* Please note that the third party systems such as Tango will be used to schedule sessions. These services are not affiliated with Stanford and we will need to input your name and email into this system. If you feel uncomfortable with this process, please let us know before signing the consent form. Depending on the study, we may be able to look into other forms of scheduling for you.  
 
 <br>
 
@@ -84,5 +86,7 @@ Please print a copy of this consent form for your records.
 
 By clicking continue below I acknowledge that, 
 
-I agree to participate in this research. Participation in this research is voluntary, and I can stop at any time without penalty. I feel that I understand what I am getting into, and I know I am free to discontinue the experiment with no consequence to myself and/or my child(ren)/ward(s).
+I have a webcam, and I agree to have my webcam track my child(ren)’s/ ward(s)’s eyes. I understand that the webcam will record or save video data and that it will be deleted once analysis is complete.
+
+I agree to have my child(ren)’s/ ward(s)’s voice recorded. This data will only be used for data analysis purposes, will be stored securely, and will not be shared with others outside the lab. Participation in this research is voluntary, and I can stop at any time without penalty. I feel that I understand what I am getting into, and I know I am free to discontinue the experiment with no consequence to myself and/or my child(ren)/ward(s).
 
