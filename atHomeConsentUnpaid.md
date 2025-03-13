@@ -39,7 +39,7 @@ Participation will take approximately 1 hour.
 **PRIVACY AND DATA COLLECTION**  
 We will do our best to ensure your privacy. Data that is collected through this online experiment is stored separately from identifying information such as your name, but information that is required for analysis such as birth year, birth month, and grade will be stored alongside data. Each participant is assigned a code and that is used rather than names. This is called “coded data” and we try to ensure that the identity of our research participants is kept confidential. Data collected as part of this study may be used for many years to help discover trends in the population and explore changes due to development and education. In addition, coded data may be shared online or with collaborators to allow for new and unforeseen discoveries. Researchers may choose to include coded data in publications to support findings, or they may choose to release coded data alongside findings for replicability.
 
-We will collect questionnaire responses, mouse and click data, keyboard response data, scrolling behavior, scores earned, button presses and their timestamps, time spent on each page, IP address to look up state and county, audio recordings, or other data that may be derived from your behavior on our page. This data will be stored on protected servers. Incomplete data may be logged if you quit out of the experiment early. If you would like to void your data, you may request it through our contact email.  
+We will collect questionnaire responses, mouse and click data, keyboard response data, scrolling behavior, scores earned, button presses and their timestamps, time spent on each page, your IP address to look up your state and county, audio recordings, or other data that may be derived from your behavior on our page. This data will be stored on protected servers. Incomplete data may be logged if you quit out of the experiment early. If you would like to void your data, you may request it through our contact email.   
 <br>
 
 **FUTURE USE OF PRIVATE INFORMATION**  
@@ -50,14 +50,12 @@ Identifiers might be removed from identifiable private information and, after su
 <br>
 
 **COMPENSATION**  
-We value your participation and your child(ren)’s/ your ward(s)’s participation. You will receive a \$15 Amazon/Tango gift card through email upon completion of this study. The results of your child(ren)’s/ your ward(s)’s performance on the activity will be shared back with you through your account, which can be considered valuable compensation.
-
-*A note about third party systems:* Please note that the third party systems such as Tango, Square, and/or Calendly will be used to schedule sessions and pay participants. These services are not affiliated with Stanford and we will need to input your name and email into this system. If you feel uncomfortable with this process, please let us know before signing the consent form. Depending on the study, we may be able to look into other forms of scheduling or payment for you.  
+We value your participation and your child(ren)’s/ your ward(s)’s participation. Participation in this study is voluntary and you will not receive financial compensation.
 
 <br>
 
 **RISKS AND BENEFITS**  
-The benefit is that you can help researchers learn about the development of academic skills. We cannot and do not guarantee or promise that you will receive any benefits from this study.
+The benefit is that you can help researchers learn about the development of academic skills. The results of your child(ren)’s/ your ward(s)’s performance on the activity will be shared back with you through your account. We cannot and do not guarantee or promise that you will receive any benefits from this study.
 
 If there is any reason to believe you or your child(ren)/ your ward(s) are not safe to participate in any of the tasks, please contact us at [roar-research@stanford.edu](mailto:roar-research@stanford.edu). Some people may experience some physical discomfort or boredom due to being asked to sit for long periods. For computer tasks, some people may also experience dry eyes or eye fatigue. For tasks that are untimed, breaks can be taken as needed during the session.
 

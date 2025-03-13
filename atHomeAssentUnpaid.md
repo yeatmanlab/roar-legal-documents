@@ -31,7 +31,7 @@ Your participation will take approximately 1 hour.
 
 **Will I be compensated?**   
 
-We appreciate your help with our study! You will get a gift card for \$15. We will send the gift card to your parent or guardian's email when you finish the study.
+We appreciate your help with our study! Your participation in this study is voluntary, and you will not receive a gift card or any money for taking part.
 
 <br>
 
