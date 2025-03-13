@@ -25,7 +25,7 @@ We will collect questionnaire responses, mouse and click data, scrolling behavio
 
 If you are participating in school or at home as part of a partnership between your school and the research team, then your school will also know that you participated, and activity results may be shared with your school.
 
-**CERTIFICATE OF CONFIDENTIALITY**
+**CERTIFICATE OF CONFIDENTIALITY**  
 This research is covered by a Certificate of Confidentiality from the National Institutes of Health. The researchers with this Certificate may not disclose or use information, documents, or biospecimens that may identify you in any federal, state, or local civil, criminal, administrative, legislative, or other action, suit, or proceeding, or be used as evidence, for example, if there is a court subpoena, unless you have consented for this use. Information, documents, or biospecimens protected by this Certificate cannot be disclosed to anyone else who is not connected with the research except, if there is a federal, state, or local law that requires disclosure (such as to report child abuse or communicable diseases but not for federal, state, or local civil, criminal, administrative, legislative, or other proceedings, see below); if you have consented to the disclosure, including for your medical treatment; or if it is used for other scientific research, as allowed by federal regulations protecting research subjects.
 
 The Certificate of Confidentiality will not be used to prevent disclosure as required by federal, state, or local law of harm to self or others.
@@ -38,7 +38,7 @@ Participation in this study is voluntary, and you will not receive financial com
 **RISKS, STRESS, OR DISCOMFORT**  
 If there is any reason to believe you are not safe to participate in any of the tasks, please contact us at [roar-research@stanford.edu](mailto:roar-research@stanford.edu). Some people may experience some physical discomfort or boredom due to being asked to sit for long periods. For computer tasks, some people may also experience dry eyes or eye fatigue. For some tasks that are untimed, breaks can be taken as needed during the session.
 
-**FINANCIAL SPONSOR** 
+**FINANCIAL SPONSOR**   
 Advanced Education Research and Development Fund (AERDF), Esther A. and Joseph Klingenstein Fund, Inc., National Institutes of Health, and the Robertson Foundation are providing financial support and/or material for this study.
 
 **CONTACT INFORMATION**  

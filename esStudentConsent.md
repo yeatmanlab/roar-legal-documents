@@ -22,7 +22,7 @@ Recopilaremos respuestas de cuestionarios, datos de clics y movimientos del mous
 
 Si está participando en una escuela o en casa como parte de una colaboración entre su escuela y el equipo de investigación, su escuela también sabrá que ha participado, y los resultados de las evaluación pueden ser compartidos con su escuela.
 
-**CERTIFICADO DE CONFIDENCIALIDAD** 
+**CERTIFICADO DE CONFIDENCIALIDAD**   
 Este estudio está protegido por un Certificado de Confidencialidad de los Institutos Nacionales de Salud (National Institutes of Health). Los investigadores con este Certificado no están autorizados a divulgar ni usar información, documentos, o bioespecímenes que puedan identificarlo en cualquier acción, demanda o procedimiento federal, estatal o local, civil, penal, administrativo, legislativo u otro, o ser utilizados como evidencia, por ejemplo, si hay una citación judicial, a menos que hayas dado su consentimiento para ese uso. Información, documentos, o bioespecímenes protegidos por este Certificado no se podran divulgar a nadie que no esté conectado con el estudio, excepto si hay una ley federal, estatal o local que requiera la divulgación (tal como para reportar abuso infantil o enfermedades transmisibles pero no para procedimientos civiles, penales, administrativos, legislativos u otros a nivel federal, estatal o local; consulte a continuación); si ha dado su consentimiento para divulgación, incluyendo para tratamientos médicos o para otros estudios científicos, según lo permitido por las regulaciones federales que protegen a los sujetos de investigacion. 
 
 El Certificado de Confidencialidad no se utilizará para impedir la divulgación conforme a lo dispuesto por ley federal, estatal o local en casos de daño a uno mismo o a otros.
@@ -35,7 +35,7 @@ La participación en este estudio es voluntaria y no recibirás compensación ec
 **RIESGOS, ESTRÉS O INCOMODIDAD**  
 Si hay alguna razón para creer que no estás seguro(a) para participar en alguna de las actividades, por favor contáctenos en roar-research@stanford.edu. Algunas personas pueden sentir cierta incomodidad física o aburrimiento debido a tener que permanecer sentados durante largos períodos. Para las actividades en computadora, algunas personas también pueden experimentar sequedad en los ojos o fatiga ocular. Para algunas actividades sin límite de tiempo, se pueden tomar descansos según sea necesario durante la sesión.
 
-**PATROCINADOR FINANCIERO**
+**PATROCINADOR FINANCIERO**  
 Advanced Education Research and Development Fund (AERDF), Esther A. and Joseph Klingenstein Fund, Inc., National Institutes of Health, y Robertson Foundation están proporcionando apoyo financiero y/o material para este estudio.
 
 **INFORMACIÓN DE CONTACTO**  
