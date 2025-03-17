@@ -29,7 +29,7 @@ In this study, your child(ren)/your ward(s) will be asked to:
 *	Complete an eye-tracking task that will request access to your webcam. This activity will capture eye-tracking data and video recordings.
 * Complete standardized assessments of reading & other academic skills, language, cognition, and perception with a member of the research staff. If you participate in this additional testing then a video and audio recording of the session will be recorded to ensure that the scores are recorded accurately.
 
-Your child(ren)/ your ward(s) may be asked to complete tasks in one session.
+Your child(ren)/ your ward(s) may be asked to complete multiple tasks in one session.
 
 <br>		
 
