@@ -43,11 +43,13 @@ Advanced Education Research and Development Fund (AERDF), Esther A. and Joseph K
 If you have any additional questions or concerns about our research, feel free to email us at [roar-research@stanford.edu](mailto:roar-research@stanford.edu). We will be more than happy to help\!
 
 For general information regarding questions or concerns about your rights as a research participant, please call 1-866-680-2906 to reach the Administrative Panel on Human Subjects in Medical Research, Stanford University.  
-*Agreement obtained through checkbox/key press/mouse click:* 
 
-\[ X \] I confirm that I have a webcam, and I agree to have my webcam track my eyes. I understand that the webcam will record or save video data and that it will be deleted once analysis is complete.
+By clicking continue below I acknowledge that,
 
-\[ X \] I agree to have my voice recorded. This data will only be used for data analysis purposes, will be stored securely, and will not be shared with others outside the lab. 
+I confirm that I have a webcam, and I agree to have my webcam track my eyes. I understand that the webcam will record or save video data and that it will be deleted once analysis is complete.
 
-\[ X \]  I agree to participate in this research. Participation in this research is voluntary, and I can stop at any time without penalty. I feel that I understand what I am getting into, and I know I am free to discontinue the experiment with no consequence to myself.
+I agree to have my voice recorded. This data will only be used for data analysis purposes, will be stored securely, and will not be shared with others outside the lab. 
 
+I agree to participate in this research. Participation in this research is voluntary, and I can stop at any time without penalty. I feel that I understand what I am getting into, and I know I am free to discontinue the experiment with no consequence to myself.
+
+If you agree to participate, please press continue.

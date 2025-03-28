@@ -43,7 +43,8 @@ If you have any additional questions or concerns about our research, feel free t
 
 For general information regarding questions or concerns about your rights as a research participant, please call 1-866-680-2906 to reach the Administrative Panel on Human Subjects in Medical Research, Stanford University.
 
-Agreement obtained through checkbox/key press/mouse click: 
+By clicking continue below I acknowledge that,
 
-\[ X \]  I agree to participate in this research. Participation in this research is voluntary, and I can stop at any time without penalty. I feel that I understand what I am getting into, and I know I am free to discontinue the experiment with no consequence to myself.
+I agree to participate in this research. Participation in this research is voluntary, and I can stop at any time without penalty. I feel that I understand what I am getting into, and I know I am free to discontinue the experiment with no consequence to myself.
 
+If you agree to participate, please press continue.
