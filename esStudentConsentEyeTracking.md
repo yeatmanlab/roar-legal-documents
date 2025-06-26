@@ -43,11 +43,12 @@ Si tienes alguna pregunta adicional o inquietud sobre nuestra investigación, no
 
 Para obtener información general sobre preguntas o inquietudes sobre tus derechos como participante en la investigación, por favor llama al 1-866-680-2906 para comunicarte con el Comité de Ética sobre Sujetos Humanos en Investigación Médica de la Universidad de Stanford.
 
-Acuerdo obtenido mediante casilla de verificación/presión de tecla/clic de ratón:
+Al hacer clic en "Continuar" abajo, reconozco que
 
-\[ X \] Confirmo que mi computadora tiene una cámara, y acepto que mi cámara siga mis ojos. Entiendo que la cámara grabará o guardará datos de video y que se eliminarán una vez que completamos el análisis.
+Confirmo que mi computadora tiene una cámara, y acepto que mi cámara siga mis ojos. Entiendo que la cámara grabará o guardará datos de video y que se eliminarán una vez que completamos el análisis.
 
-\[ X \] Acepto que se grabe mi voz. Estos datos solo se utilizarán para fines de análisis de datos, se almacenarán de forma segura y no se compartirán con otras personas fuera del laboratorio.
+Acepto que se grabe mi voz. Estos datos solo se utilizarán para fines de análisis de datos, se almacenarán de forma segura y no se compartirán con otras personas fuera del laboratorio.
 
-\[ X \] Acepto participar en esta investigación. La participación en este estudio es voluntaria y puedo detenerla en cualquier momento sin penalización. Siento que entiendo a lo que me estoy comprometiendo y sé que puedo parar mi participación en cualquier momento  sin consecuencias para mí.
+Acepto participar en esta investigación. La participación en este estudio es voluntaria y puedo detenerla en cualquier momento sin penalización. Siento que entiendo a lo que me estoy comprometiendo y sé que puedo parar mi participación en cualquier momento  sin consecuencias para mí.
 
+Si acepta participar, por favor, haga clic en "Continuar".
