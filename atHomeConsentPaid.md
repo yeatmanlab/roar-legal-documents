@@ -40,6 +40,9 @@ Participation will take approximately 1 hour.
 We will do our best to ensure your privacy. Data that is collected through this online experiment is stored separately from identifying information such as your name, but information that is required for analysis such as birth year, birth month, and grade will be stored alongside data. Each participant is assigned a code and that is used rather than names. This is called “coded data” and we try to ensure that the identity of our research participants is kept confidential. Data collected as part of this study may be used for many years to help discover trends in the population and explore changes due to development and education. In addition, coded data may be shared online or with collaborators to allow for new and unforeseen discoveries. Researchers may choose to include coded data in publications to support findings, or they may choose to release coded data alongside findings for replicability.
 
 We will collect questionnaire responses, mouse and click data, keyboard response data, scrolling behavior, scores earned, button presses and their timestamps, time spent on each page, IP address to look up state and county, audio recordings, or other data that may be derived from your behavior on our page. This data will be stored on protected servers. Incomplete data may be logged if you quit out of the experiment early. If you would like to void your data, you may request it through our contact email.  
+
+If you are participating in school or at home as part of a partnership between your school or other organization and the research team, then your school or organization will also know that you participated, and activity results may be shared with your school or organization. 
+
 <br>
 
 **FUTURE USE OF PRIVATE INFORMATION**  
