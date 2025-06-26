@@ -43,6 +43,8 @@ We will do our best to ensure your privacy. Data that is collected through this 
 
 We will collect questionnaire responses, mouse and click data, keyboard response data, scrolling behavior, scores earned, button presses and their timestamps, time spent on each page, audio recordings, your IP address to look up your state and county, or other data that may be derived from your behavior on our page. This data will be stored on protected servers. The eye-tracking software will use your webcam to track your eyes. This software will record and save video data for future analysis. Once analysis has been completed, the video data will be deleted. If you are invited to partake in additional achievement testing then the video and audio recording of the session will be collected. Once analysis is complete and scores have been confirmed, the video and audio recording will be deleted. Incomplete data may be logged if you quit out of the experiment early. If you would like to void your data, you may request it through our contact email. 
 
+If you are participating in school or at home as part of a partnership between your school or other organization and the research team, then your school or organization will also know that you participated, and activity results may be shared with your school or organization. 
+
 <br>
 
 **FUTURE USE OF PRIVATE INFORMATION**  
