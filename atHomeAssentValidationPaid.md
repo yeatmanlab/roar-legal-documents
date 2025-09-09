@@ -26,13 +26,13 @@ Each activity will give you specific instructions on what you need to do. Your p
 
 **How long will I be in this research study?**   
 
-Your participation will take up to 2 hours.
+Your participation will take approximately 1 hour.
 
 <br>
 
 **Will I be compensated?**   
 
-We appreciate your help with our study! You will get a gift card for \$15. We will send the gift card to your parent or guardian's email when you finish the study.
+We appreciate your help with our study! You will get a gift card for $15 per hour, for a maximum of $45 for 3 hours, based on the average amount of time participants take to complete the study. We will send the gift card to your parent or guardian's email when you finish the study.
 
 <br>
 
@@ -56,7 +56,7 @@ The fact that you participated in this study will be kept secret, but some demog
 
 **Who can I talk to about the study?**
 
-If you have any questions about the study or any problems with the study, your parent or an adult can help you email us at [readingresearch@stanford.edu](mailto:readingresearch@stanford.edu). You can also contact us at any time if you feel you have been hurt by being a part of this study.
+If you have any questions about the study or any problems with the study, your parent or an adult can help you email us at [roar-research@stanford.edu](mailto:roar-research@stanford.edu). You can also contact us at any time if you feel you have been hurt by being a part of this study.
 
 If you have questions about the study but want to talk to someone else who is not a part of the study, your parent or an adult can help you call the Stanford Institutional Review Board (IRB) at (650)-723-5244 or toll free at 1-866-680-2906.
 
