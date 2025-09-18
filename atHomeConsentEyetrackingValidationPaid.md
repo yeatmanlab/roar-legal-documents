@@ -53,7 +53,7 @@ Identifiers might be removed from identifiable private information and, after su
 <br>
 
 **COMPENSATION**  
-We value your participation and your child(ren)’s/ your ward(s)’s participation. You will receive a \$15 Amazon/Tango gift card through email upon completion of this study. The results of your child(ren)’s/ your ward(s)’s performance on the activity will be shared back with you through your account, which can be considered valuable compensation.
+We value your participation and your child(ren)’s/ your ward(s)’s participation. You will receive a $15 per hour, with a maximum of $45 for 3 hours, based on the average amount of time participants take to complete the study as an Amazon/Tango gift card through email upon completion of this study. The results of your child(ren)’s/ your ward(s)’s performance on the activity will be shared back with you through your account, which can be considered valuable compensation.
 
 *A note about third party systems:* Please note that the third party systems Calendly will be used to schedule sessions. These services are not affiliated with Stanford and we will need to input your name and email into this system. If you feel uncomfortable with this process, please let us know before signing the consent form. Depending on the study, we may be able to look into other forms of scheduling for you. 
 
