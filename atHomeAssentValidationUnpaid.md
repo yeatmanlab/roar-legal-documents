@@ -50,7 +50,7 @@ The benefit is that you can help researchers learn about how kids learn.
 
 **Will anyone know I am in the study?**
 
-The fact that you participated in this study will be kept secret, but some demographic information, such as your age or gender, may be given to the study sponsor.
+Your parent/guardian and the research team will know that you participated. If you are participating in school or at home as part of a partnership between your school and the research team, then your organization will also know that you participated, and activity results may be shared with your school. The fact that you participated in this study will be kept secret, but some demographic information, such as your age or gender, may be given to the study sponsor.
 
 <br>
 
